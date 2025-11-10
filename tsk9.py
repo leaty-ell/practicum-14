@@ -34,6 +34,5 @@ for word in word_order:
 sorted_words.sort()
 sorted_words = sorted_words[::-1]
 
-print("\nСлова по частоте:")
 for count, word in sorted_words:
     print(word)
