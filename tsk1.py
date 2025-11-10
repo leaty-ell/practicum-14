@@ -4,8 +4,8 @@ for i in range(10):
     numbers.append(num)
 
 new_list=[]
-for i in range(8): 
-    sum_neighbors = numbers[i] + numbers[i+1]
+for i in range(9): 
+    sum_neighbors = numbers[i-1] + numbers[i+1]
     new_list.append(sum_neighbors)
 
 print("Исходный список:", numbers)
