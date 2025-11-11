@@ -1,9 +1,8 @@
 all_text = ""
-while True:
+line = None
+while line != "":
     line = input("Введите текст :")
-    if line == "":
-        break
-    all_text = all_text + line + " "
+    all_text += line + " "
 
 signs = ".,!?;:()\"'-"
 
