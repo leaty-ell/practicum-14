@@ -27,7 +27,6 @@ sorted_words = []
 for word in word_order:
     sorted_words.append((word_count[word], word))
 
-
 sorted_words.sort()
 sorted_words = sorted_words[::-1]
 
