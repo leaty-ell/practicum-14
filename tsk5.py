@@ -8,7 +8,7 @@ for n in numbers:
 total = 0
 for num in numbers_list:
     total += num
-    
 average = total / len(numbers_list)
+
 print("Список чисел:", numbers_list)
 print("Среднее значение:", average)
