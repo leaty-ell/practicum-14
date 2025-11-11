@@ -1,8 +1,6 @@
-print("Введите текст :")
-
 all_text = ""
 while True:
-    line = input()
+    line = input("Введите текст :")
     if line == "":
         break
     all_text = all_text + line + " "
