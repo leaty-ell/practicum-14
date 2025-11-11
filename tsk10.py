@@ -6,7 +6,7 @@ end_idx = int(input("Введите конечный индекс диапазо
 lst1 = list(map(int, list1_input.split()))
 lst2 = list(map(int, list2_input.split()))
 
-elements_to_move = lst1[start_idx:end_idx+1]
+elements_to_move = lst1[start_idx-1:end_idx+1]
 lst2.extend(elements_to_move[::-1])
 new_lst1 = lst1[:start_idx] + lst1[end_idx+1:]
 
